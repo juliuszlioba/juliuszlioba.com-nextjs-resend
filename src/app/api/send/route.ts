@@ -1,4 +1,4 @@
-import { EmailTemplate } from '../../components/email-template'
+import EmailTemplate from '../../../../emails/email-template'
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { limiter } from '../config/limiter'

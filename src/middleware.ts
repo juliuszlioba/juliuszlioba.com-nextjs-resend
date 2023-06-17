@@ -8,9 +8,8 @@ const allowedOrigins =
 
 export function middleware(request: NextRequest) {
 	const origin = request.headers.get('origin')
-	//console.log(`Origin: ${origin}`)
 
-	//if (origin && !allowedOrigins.includes(origin)) {
+	// if (origin && !allowedOrigins.includes(origin)) { //! FOR DEV ONLY
 	if ((origin && !allowedOrigins.includes(origin)) || !origin) {
 		return new NextResponse(null, {
 			status: 400,
