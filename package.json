@@ -1,0 +1,35 @@
+{
+  "name": "juliuszlioba.com-nextjs-resend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev-email": "email dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-email/body": "^0.0.10",
+    "@react-email/components": "0.0.25",
+    "@react-email/container": "^0.0.14",
+    "@react-email/html": "^0.0.10",
+    "@react-email/tailwind": "^0.1.0",
+    "@react-email/text": "^0.0.10",
+    "limiter": "^2.1.0",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "react-email": "3.0.1",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
+}
