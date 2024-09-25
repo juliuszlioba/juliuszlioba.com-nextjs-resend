@@ -18,7 +18,7 @@ Email tamplates stored in folder `./emails`.<br>
 To start dev server for tamplates run:
 
 ```
-npm run dev-email
+pnpm run dev-email
 ```
 
 ## Nextjs server
@@ -26,7 +26,7 @@ npm run dev-email
 start development:
 
 ```
-npm run dev
+pnpm run dev
 ```
 
 `./src/app/api/config/limiter.ts` contains limiter configuration to limit only 5 request per 1 min
