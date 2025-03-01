@@ -1,5 +1,5 @@
-import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 
 const allowedOrigins =
 	process.env.NODE_ENV === 'production'
@@ -8,6 +8,10 @@ const allowedOrigins =
 
 export function middleware(request: NextRequest) {
 	const origin = request.headers.get('origin')
+
+	console.log("allowedOrigins", allowedOrigins);
+
+	console.log("origin", origin);
 
   // DEV
 	// if (origin && !allowedOrigins.includes(origin)) {
